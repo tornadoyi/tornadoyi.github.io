@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Gu sir
 subtitle:
 description:
-author: John Doe
+author: Yi Gu
 language:
 timezone:
 
@@ -76,5 +76,6 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy:
-  type:
+deploy: git
+  type: https://github.com/tornadoyi/tornadoyi.github.io.git
+  branch: master
