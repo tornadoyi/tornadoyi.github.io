@@ -76,6 +76,7 @@ theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: git
-  type: https://github.com/tornadoyi/tornadoyi.github.io.git
+deploy: 
+  type: git
+  repo: https://github.com/tornadoyi/tornadoyi.github.io.git
   branch: master
